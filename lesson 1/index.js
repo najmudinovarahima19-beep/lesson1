@@ -7,5 +7,9 @@
 // let name = "Rahima"
 // alert(name);
 
-let = prompt("what is your name?");
-alert(name)
+// let = prompt("what is your name?");
+// alert(name)
+
+let name = prompt("Атыныз ким?");
+let jash = prompt("Жашыныз канчада?")
+console.log("Саламатсызбы, " + name + " Cиздин жашыныз " + jash + "де");
