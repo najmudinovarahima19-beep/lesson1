@@ -1,3 +1,4 @@
+
 // //  условия оператора if/else  switch/ case
 // let email = prompt("введите ваш email")
 // let password = prompt("введите ваш пароль")
@@ -18,35 +19,77 @@
 //     alert('число неотрицательное')
 // }
 
+// let month = prompt("введите любой месяц")
+// switch (month) {
+//     case "январь":
+//   case "февраль":
+//   case "март":
+// alert ("зима"); 
+// break;
+//  case"апрель":
+//  case"май":
+//  case"Март":
+//  alert("весна");
+//  break;
+//  case"июнь":
+//  case"июль":
+//  case"август":
+//  alert("лето");
+//  break;
+//  case"сентябрь":
+//  case"октябрь":
+//  case"ноябрь":
+//  alert("осень");
+//  break;
+//  default:
+//     alert("такого месяц не существует");
+// }
 
 
 
-let month = prompt("введите любой месяц")
-switch (month) {
-    case "январь":
-  case "февраль":
-  case "март":
-alert ("зима"); 
+let region = prompt("Каалаган районду танданыз")
+switch (region) {
+    case "Ысык-Ата":
+  case "Кемин":
+  case "Сокулук":
+alert ("Чуй облусу"); 
 break;
- case"апрель":
- case"май":
- case"Март":
- alert("весна");
+ case"Жумгал":
+ case"Кочкор":
+ case"Ат-Башы":
+ alert("Нарын облусу");
  break;
- case"июнь":
- case"июль":
- case"август":
- alert("лето");
+ case"Аксы":
+ case"Ноокен":
+ case"Чаткал":
+ alert("Жалал-Абад облусу");
  break;
- case"сентябрь":
- case"октябрь":
- case"ноябрь":
- alert("осень");
+ case"Кара-Суу":
+ case"Озгон":
+ case"Алай":
+ alert("Ош облусу");
+ break;
+ case "Кадамжай":
+  case "Лейлек":
+  case "Баткен":
+alert ("Баткен облусу"); 
+break;
+ case"Манас":
+ case"Бакай-Ата":
+ case"Кара-Буура":
+ alert("Талас облусу");
+ break;
+ case"Тон":
+ case"Туп":
+ case"Ак-Суу":
+ alert("Ысык-Кол облусу");
  break;
  default:
-    alert("такого месяц не существует");
-
+    alert("Мындай район жок");
 }
+
+
+
 
 
 
